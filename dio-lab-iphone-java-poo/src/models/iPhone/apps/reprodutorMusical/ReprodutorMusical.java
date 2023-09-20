@@ -1,16 +1,16 @@
-package telefone.iPhone.apps.reprodutorMusical;
+package models.iPhone.apps.reprodutorMusical;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import telefone.iPhone.apps.AppModel;
-import telefone.iPhone.apps.reprodutorMusical.musica.Musica;
+import models.iPhone.apps.AppModel;
+import models.iPhone.apps.reprodutorMusical.musica.Musica;
 
-public class reprodutorMusical extends AppModel {
+public class ReprodutorMusical extends AppModel {
     private List<Musica> listaDeMusicas = new ArrayList<Musica>();
     private String musicaTocando = "";
 
-    public reprodutorMusical() {
+    public ReprodutorMusical() {
         listaDeMusicas.add(new Musica("Toque do Telefone"));
         listaDeMusicas.add(new Musica("Garota de Ipanema"));
         listaDeMusicas.add(new Musica("Highway to Hell"));

@@ -1,6 +1,6 @@
-package telefone.iPhone.apps;
+package models.iPhone.apps;
 
-import telefone.iPhone.iPhone;
+import models.iPhone.iPhone;
 
 public class AppModel {
     public boolean aparelhoLigado(iPhone iPhone) {

@@ -1,4 +1,4 @@
-package telefone.iPhone.apps.reprodutorMusical.musica;
+package models.iPhone.apps.reprodutorMusical.musica;
 
 public class Musica {
     private String nome;
