@@ -19,3 +19,7 @@ O desafio é usar classes Java para criar simulações das funcionalidades apres
 Para esta parte do desafio, escolhi o draw.io, e a execução/resultado pode ser visto [aqui](https://drive.google.com/file/d/1X_Ign_NFENfF-UvFzY4-bnUo7m4YYKTh/view?usp=sharing).
 
 ![diagrama UML](./public/dio-iphone-java-uml.drawio.png)
+
+### Reprodutor Musical
+* Minha intenção é fazer que exista uma classe pai "App" que tenha um método para verificar se o telefone está ligado, mas ainda não consegui fazer esta feature funcionar.
+* Métodos ```tocar```, ```pausar``` e ```selecionarMusica``` implementados, mas não consegui usar a stream API, porque sempre que chamava o ```toString()```, recebia o resultado "Optional[```<nome da musica>```]", mesmo dando override no método na classe ```Musica```.

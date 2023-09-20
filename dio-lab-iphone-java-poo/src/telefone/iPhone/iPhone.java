@@ -3,19 +3,24 @@ package telefone.iPhone;
 import telefone.iPhone.apps.reprodutorMusical.reprodutorMusical;
 
 public class iPhone {
-    public static boolean ligado = false;
+    private boolean ligado = false;
+    public reprodutorMusical reprodutorMusical;
 
     public iPhone() {
         System.out.println("Tirei meu iPhone do bolso.");
-        reprodutorMusical reprodutorMusical = new reprodutorMusical();
+        this.reprodutorMusical = new reprodutorMusical();
     }
 
-    public static void ligar() {
-        ligado = true;
+    public void ligar() {
+        this.ligado = true;
     }
 
-    public static void desligar() {
-        ligado = false;
+    public void desligar() {
+        this.ligado = false;
+    }
+
+    public boolean getLigado(){
+        return this.ligado;
     }
 
 }
